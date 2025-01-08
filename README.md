@@ -1,13 +1,14 @@
 # **HTML Exercise: Hello World**
+---
+## Exercise 1: Learn the basics of Github and git
 
 ### **Objective**
 - Learn the basics of Git and GitHub.
 - Create and modify a simple HTML file.
 - Personalize a "Hello World" webpage with your name.
-
 ---
 
-### **Instructions**
+#### **Instructions**
 
 1. **Clone Your Repository**
    - Open your terminal or Git Bash and clone the repository:
@@ -63,3 +64,52 @@
 
 8. **Optional: Open the File in a Browser**
    - Open the `index.html` file in a browser to see your "Hello World" page.
+
+---
+# Exercise 2: Collaborate on a Shared Project
+
+### Goal
+Learn how to work with branches, create pull requests, and merge changes to collaborate using Git and GitHub.
+
+---
+
+## Instructions
+
+### Step 1: Create a New Branch
+1. Open your terminal and navigate to the cloned repository.
+2. Create a new branch named `feature/add-hobbies`:
+   ```bash
+   git checkout -b feature/add-hobbies
+```
+### Step 2: Edit the HTML File
+1. Open the index.html file in your code editor.
+2. Add the following section below the "About Me" section:
+```
+<h2>My Hobbies</h2>
+<ul>
+    <li>Reading</li>
+    <li>Coding</li>
+    <li>Gaming</li>
+</ul>
+```
+###  Step 3: Commit the Changes
+1. Save the file and return to your terminal.
+2. Stage and commit the changes:
+
+```bash
+git add index.html
+git commit -m "Added hobbies section"
+```
+###  Step 4: Push the branch
+
+```bash
+git push -u origin feature/add-hobbies
+```
+
+###  Step 5: Create a Pull Request
+1. Go to the GitHub repository in your browser.
+2. You’ll see an option to create a pull request for the branch you just pushed. Click Compare & pull request.
+3. Add a title (e.g., "Added hobbies section") and a brief description of the changes.
+4. Click Create pull request.
+
+This will be the submission step for feedback from teacher or one of your peers, wait for feedback and approval of the pull request.
