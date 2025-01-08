@@ -83,7 +83,7 @@ Learn how to work with branches, create pull requests, and merge changes to coll
 ```
 ### Step 2: Edit the HTML File
 1. Open the index.html file in your code editor.
-2. Add the following section below the "About Me" section:
+2. Add the following section below:
    
 ```
 <h2>My Hobbies</h2>
