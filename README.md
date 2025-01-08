@@ -78,12 +78,13 @@ Learn how to work with branches, create pull requests, and merge changes to coll
 ### Step 1: Create a New Branch
 1. Open your terminal and navigate to the cloned repository.
 2. Create a new branch named `feature/add-hobbies`:
-   ```bash
+```bash
    git checkout -b feature/add-hobbies
 ```
 ### Step 2: Edit the HTML File
 1. Open the index.html file in your code editor.
 2. Add the following section below the "About Me" section:
+   
 ```
 <h2>My Hobbies</h2>
 <ul>
